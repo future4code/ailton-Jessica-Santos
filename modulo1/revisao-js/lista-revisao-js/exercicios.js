@@ -16,15 +16,15 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  function compararNumeros(a, b) {
+  /*function compararNumeros(a, b) {
 
   return (a - b);
 }
-  return array.sort(compararNumeros)
+  return array.sort(compararNumeros)*/
 }
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-    
+ 
 }
 
 // EXERCÍCIO 05
@@ -64,14 +64,14 @@ function retornaChamadaDeFilme(filme) {
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-/* return {... pessoa,
-nome:"ANÔNIMO "
-}*/  
+ return {... pessoa,
+nome:"ANÔNIMO"
+}  
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-  /*const pessoasAut = pessoas.filter((autorizadas) =>{
+ /* const pessoasAut = pessoas.filter((autorizadas) =>{
    return autorizadas.altura>= 1.5 && autorizadas.idade >= 15 && autorizadas.idade < 60
      
   }) return pessoasAut*/
