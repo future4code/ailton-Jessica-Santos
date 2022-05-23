@@ -54,8 +54,28 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  let primeiroMaior = -Infinity
+  let segundoMaior = -Infinity
+  let primeiroMenor = +Infinity
+  let segundoMenor = +Infinity
+  for(let number of array){
+    if (number > primeiroMaior)
+    {primeiroMaior = number
+    }if (number < primeiroMenor){
+      primeiroMenor = number
+    }
+      }
+for (let number of array){
+  if(number> segundoMaior && number !== primeiroMaior){
+    segundoMaior = number
+  } if (number<segundoMenor && number !== primeiroMenor){
+segundoMenor = number
+  }
+  }
+  const resultado = [segundoMaior, segundoMenor]
+  return resultado
 }
+
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
@@ -71,19 +91,20 @@ nome:"ANÔNIMO"
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-  const pessoasAut = pessoas.filter((autorizadas) =>{
+ /* const pessoasAut = pessoas.filter((autorizadas) =>{
    return autorizadas.altura>= 1.5 && autorizadas.idade >= 15 && autorizadas.idade < 60
      
   })
-   return (pessoasAut)
+   return (pessoasAut)*/
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
- /*  const pessoasInv = pessoas.filter ((itens) => {
-return itens.idade <= 14 || itens.idade > 60 || itens.altura <150
+   const pessoasInv = pessoas.filter ((itens) => {
+return itens.idade <= 14 && itens.idade > 60 && itens.altura < 150
 
-   })*/
+   }) 
+   return pessoasInv
 }
 
 // EXERCÍCIO 14
@@ -94,6 +115,11 @@ function retornaContasComSaldoAtualizado(contas) {
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
 //  const ordem = consultas.sort()
+function compararNumeros(a, b) {
+
+  return (a - b);
+}
+  return array.sort(compararNumeros)
 }
 
 // EXERCÍCIO 15B
