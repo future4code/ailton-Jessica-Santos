@@ -5,13 +5,13 @@
 
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
-  //return array.length
+  //return array.length funcionou
 }   
 
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  //return array.reverse()
+  //return array.reverse() funcionou
 }
 
 // EXERCÍCIO 03
@@ -20,7 +20,7 @@ function retornaArrayOrdenado(array) {
 
   return (a - b);
 }
-  return array.sort(compararNumeros)*/
+  return array.sort(compararNumeros)funcionou */ 
 }
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
@@ -54,7 +54,7 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  let primeiroMaior = -Infinity
+  /*let primeiroMaior = -Infinity
   let segundoMaior = -Infinity
   let primeiroMenor = +Infinity
   let segundoMenor = +Infinity
@@ -73,20 +73,27 @@ segundoMenor = number
   }
   }
   const resultado = [segundoMaior, segundoMenor]
-  return resultado
+  return resultado* funcionou */
 }
 
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+  /* const filme = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+  }
+
+  return (`Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[]}.`)*/
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
  /*return {... pessoa,
 nome:"ANÔNIMO"
-}  */
+} funcionou */
 }
 
 // EXERCÍCIO 13A
@@ -95,16 +102,24 @@ function retornaPessoasAutorizadas(pessoas) {
    return autorizadas.altura>= 1.5 && autorizadas.idade >= 15 && autorizadas.idade < 60
      
   })
-   return (pessoasAut)*/
+   return (pessoasAut) funcionou*/
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-   const pessoasInv = pessoas.filter ((itens) => {
-return itens.idade <= 14 && itens.idade > 60 && itens.altura < 150
+  let arrayNaoPermitidos = []
+  for(const valor of pessoas ){
+if(valor.altura <1.5 || valor.idade <= 14|| valor.idade >= 60){
+  arrayNaoPermitidos.push(valor)
+}
 
+  }
+return arrayNaoPermitidos  
+  
+  /*const pessoasInv = pessoas.filter ((naoautorizadas) => {
+return naoautorizadas.idade <= 14 || naoautorizadas.idade > 60 || naoautorizadas.altura < 1.5
    }) 
-   return pessoasInv
+   return pessoasInv*/
 }
 
 // EXERCÍCIO 14
@@ -114,15 +129,19 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-//  const ordem = consultas.sort()
-function compararNumeros(a, b) {
+/*consultas.sort(function(a,b) {
 
-  return (a - b);
-}
-  return array.sort(compararNumeros)
+  return (a.nome < b.nome ? - 1 : a.nome> b.nome ? 1 : 0 );
+})
+  return consultas*/
 }
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
+  /* let arrayDataSemBarra = [];
+   for( const valor of consultas) {
+arrayDataSemBarra
+   }*/
+
+
 }
