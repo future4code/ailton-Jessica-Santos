@@ -25,13 +25,15 @@ function retornaArrayOrdenado(array) {
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
  
- return array.filter(numero => (numero % 2) === 0 )
+// return array.filter(numero => (numero % 2) === 0 ) funcionou
  
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+ const novoArray = array.filter (item => item %2 ===0)
+ const outroArray = novoArray.map (item => item ** 2)
+ return outroArray
 }
 
 // EXERCÍCIO 06
