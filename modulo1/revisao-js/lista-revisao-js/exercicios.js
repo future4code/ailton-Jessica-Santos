@@ -79,7 +79,7 @@ segundoMenor = number
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-  /* const filme = {
+ /*  const filme = {
     nome: 'O Diabo Veste Prada',
     ano: 2006,
     diretor: 'David Frankel',
@@ -107,33 +107,49 @@ function retornaPessoasAutorizadas(pessoas) {
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  let arrayNaoPermitidos = []
+ /* let arrayNaoPermitidos = []
   for(const valor of pessoas ){
 if(valor.altura <1.5 || valor.idade <= 14|| valor.idade >= 60){
   arrayNaoPermitidos.push(valor)
 }
-
   }
-return arrayNaoPermitidos  
-  
-  /*const pessoasInv = pessoas.filter ((naoautorizadas) => {
-return naoautorizadas.idade <= 14 || naoautorizadas.idade > 60 || naoautorizadas.altura < 1.5
-   }) 
-   return pessoasInv*/
+return arrayNaoPermitidos
+funcionou*/  
+
 }
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
+/*
+let soma = 0
+let debito = 0
+const arrayDeContas = contas.map((item) =>{
+return item.compras
+})
+for (let i = 0; i < arrayDeContas.lenght; i++) {
+  for(let j=0; j<arrayDeContas[i].lenght; j++) {
+  soma += arrayDeContas[i][j]
+}
+arrayDeContas[i].push(soma)
+soma=0
+}
+for(let i=0; i < contas.lenght; i++){
+  debito - contas[i].compras.pop()
+  contas[i].saldoTotal -= debito
+  contas[i].compras=[]
 
+}
+return contas*/
 }
 
 // EXERCÍCIO 15A
-function retornaArrayOrdenadoAlfabeticamente(consultas) {
-/*consultas.sort(function(a,b) {
+/*function retornaArrayOrdenadoAlfabeticamente(consultas) {
+consultas.sort(function(a,b) {
 
   return (a.nome < b.nome ? - 1 : a.nome> b.nome ? 1 : 0 );
 })
-  return consultas*/
+  return consultas
+  Funcionou*/
 }
 
 // EXERCÍCIO 15B
