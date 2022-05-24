@@ -25,6 +25,8 @@ function retornaArrayOrdenado(array) {
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
  
+ return array.filter(numero => (numero % 2) === 0 )
+ 
 }
 
 // EXERCÍCIO 05
@@ -49,12 +51,19 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+  if(ladoA === ladoB && ladoA ===ladoC) {
+    return "Equilátero"
+  } else if( ladoA === ladoB && ladoA !== ladoC || ladoA === ladoC && ladoA !== ladoB || ladoB === ladoC && ladoB !== la ){
+    return"Isósceles"
+  } else if ( ladoA != ladoB && ladoA !== ladoC){
+    return "Escaleno"
+  }
 
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  /*let primeiroMaior = -Infinity
+ /* let primeiroMaior = -Infinity
   let segundoMaior = -Infinity
   let primeiroMenor = +Infinity
   let segundoMenor = +Infinity
@@ -73,7 +82,7 @@ segundoMenor = number
   }
   }
   const resultado = [segundoMaior, segundoMenor]
-  return resultado* funcionou */
+  return resultado*/
 }
 
 
@@ -90,33 +99,33 @@ function retornaChamadaDeFilme(filme) {
 }
 
 // EXERCÍCIO 12
-function retornaPessoaAnonimizada(pessoa) {
- /*return {... pessoa,
+/*function retornaPessoaAnonimizada(pessoa) {
+ return {... pessoa,
 nome:"ANÔNIMO"
-} funcionou */
+} funcionou
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
- /* const pessoasAut = pessoas.filter((autorizadas) =>{
+  const pessoasAut = pessoas.filter((autorizadas) =>{
    return autorizadas.altura>= 1.5 && autorizadas.idade >= 15 && autorizadas.idade < 60
      
   })
-   return (pessoasAut) funcionou*/
+   return (pessoasAut) 
 }
-
+funcionou
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
- /* let arrayNaoPermitidos = []
+  let arrayNaoPermitidos = []
   for(const valor of pessoas ){
 if(valor.altura <1.5 || valor.idade <= 14|| valor.idade >= 60){
   arrayNaoPermitidos.push(valor)
 }
   }
-return arrayNaoPermitidos
-funcionou*/  
-
-}
+return arrayNaoPermitidos*/
+  
+//funcionou
+//}
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
@@ -143,13 +152,13 @@ return contas*/
 }
 
 // EXERCÍCIO 15A
-/*function retornaArrayOrdenadoAlfabeticamente(consultas) {
-consultas.sort(function(a,b) {
+function retornaArrayOrdenadoAlfabeticamente(consultas) {
+/*consultas.sort(function(a,b) {
 
   return (a.nome < b.nome ? - 1 : a.nome> b.nome ? 1 : 0 );
 })
-  return consultas
-  Funcionou*/
+  return consultas*/
+  
 }
 
 // EXERCÍCIO 15B
