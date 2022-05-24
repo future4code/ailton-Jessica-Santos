@@ -31,14 +31,21 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- const novoArray = array.filter (item => item %2 ===0)
+ /*const novoArray = array.filter (item => item %2 ===0)
  const outroArray = novoArray.map (item => item ** 2)
- return outroArray
+ return outroArray*/
 }
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  let maiorNumero = 0
+  for(let i=0; i<array.length; i++){
+    let elemento = array[i]
+    if(elemento > maiorNumero){
+      maiorNumero = elemento
+    }
+  }
+  return maiorNumero
 }
 
 // EXERCÍCIO 07
