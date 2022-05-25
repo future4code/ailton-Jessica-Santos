@@ -1,0 +1,23 @@
+body{
+    background-color: blanchedalmond;
+
+}
+p{
+    color: rgb(156, 36, 60);
+}
+a{
+    color: rgb(67, 17, 114);
+}
+button{
+    color: rgb(67, 17, 114);
+background-color:rgb(248, 117, 215)
+}
+h2{
+    color: rgb(156, 36, 60);
+    background-color:rgb(231, 193, 142);
+    margin:  8px ; 
+    padding: 4px; 
+}
+form{
+    color: rgb(42, 15, 66);
+}

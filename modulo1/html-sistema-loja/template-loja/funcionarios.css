@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+
+}
+
+p{
+    display: inline;
+    color: crimson;
+    font-size: 25px;}
+    a{
+        color: rgb(67, 17, 114);
+    }
+    h2{
+        background-color:rgb(231, 193, 142);
+        margin:  8px ; 
+        padding: 4px;     
+    
+        color: crimson;
+    }
+    li{
+        color:rgb(67, 17, 114) ;
+    }

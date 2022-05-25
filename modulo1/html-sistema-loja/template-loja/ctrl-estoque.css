@@ -1,0 +1,43 @@
+h1{ color: rgb(83, 13, 148);  
+}
+body{
+background-color: blanchedalmond;
+}
+p{
+color: crimson;
+}
+a{
+color: rgb(67, 17, 114);
+}
+table{
+    color:indigo;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 15
+    px;
+}
+
+tr:nth-child(even){background-color:rgb(207, 164, 98)}
+
+th {
+    color: white;
+}
+h2{
+    background-color:burlywood;
+    margin:  8px ; 
+    padding: 4px;     
+}
+.nome-das-coisas{
+    background-color:burlywood;
+    margin:  8px ; 
+    padding: 4px;      }
+
+    img{
+        width: 100px;
+    
+    }
+    
