@@ -1,16 +1,16 @@
-h1{ color: rgb(83, 13, 148);  
+h1{ color: #323F59;  
 }
 body{
-background-color: blanchedalmond;
+    background-image:linear-gradient(to right, #F2E2CE,#F2B9AC,#9ABBD9) 
 }
 p{
-color: crimson;
+color: #323F59;
 }
 a{
-color: rgb(67, 17, 114);
+color: #323F59;
 }
 table{
-    color:indigo;
+    color:#323F59;
     border-collapse: collapse;
     width: 100%;
 }
@@ -21,18 +21,19 @@ th, td {
     px;
 }
 
-tr:nth-child(even){background-color:rgb(207, 164, 98)}
+tr:nth-child(even){background-color:#F2B9AC}
 
 th {
     color: white;
 }
 h2{
-    background-color:burlywood;
+    background-color:#F2B9AC;
     margin:  8px ; 
     padding: 4px;     
+    text-align: center;
 }
 .nome-das-coisas{
-    background-color:burlywood;
+    background-color:#F2B9AC;
     margin:  8px ; 
     padding: 4px;      }
 
