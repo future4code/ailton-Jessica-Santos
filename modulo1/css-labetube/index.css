@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header {
+    background-color:red;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+main{
+background-color: bisque;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: repeat(4, 1fr)
+
+}
+.vid-card{
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    background-color:darkgoldenrod;
+    grid-column: 1 / -1;
+}
+.conteudo{
+    display: grid;
+    /* grid-row: ; */
+    grid-column: 2 / 3;
+    align-items: center;
+}
+
+/* Cards */
+section {
+    padding: 8px;
+     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    border: 1px solid black;
+    padding-left: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.vid-card {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Videos */
+.main-video{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+
+/* Botão e campo de pesquisa */
+#divBusca{
+    background-color:#e0eeee;
+    border:solid 2px #fdad00;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#eb3123b4;
+  }
+  
+  #divBusca img{
+    float:left;}
+
+    #btnBusca:hover{
+        background-color: rgba(61, 58, 53, 0.411);
+            color:white
+    }
