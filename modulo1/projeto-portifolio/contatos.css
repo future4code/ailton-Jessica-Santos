@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+   background: linear-gradient(68.15deg, #401D16, #260F0D, #8C796D);
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 300px;
+    margin: 0;
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:right;
+    padding: 24px;
+    color: #F2F1DF;
+    
+}
+h1{
+justify-content: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+gap: 40px;
+}
+
+.menu-item {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+
+}
+.menu-item:hover{
+
+    background-color: rgba(236, 214, 196,0.53);
+}
+.conteudo{
+margin-bottom: 48px
+;
+border-top: 0.4px solid #401D16;
+
+}
+.button{border-radius: 8px;
+    background-color:#BFB2A3;
+      color: #401D16;
+      padding: 8px 10px;
+      text-align: center;
+      text-decoration: none;
+     display: inline-block;  
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border: none;
+      box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    .button:hover{
+        background-color: rgba(236, 214, 196,0.53);
+    }
+    .rodape{
+        padding: 32px;
+        border-top: 0.10px solid #BFB2A3;
+        background-color:#bfb2a3b2;
+        text-align: center;
+        bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 150px; 
+    }
+  .row{
+      padding: 0 150px ;
+      display: table;
+      width: 100%;
+      
+  }
+  form{
+      width: 50%;
+      margin: 0 auto;
+box-shadow:0 4px 8px #999;
+text-align: center;
+  }
+  #titulo{
+      text-align: center;
+      color: #F2F1DF;
+  }
+  .card{
+      background: #BFB2A3;
+      width: 100%;
+  }
+  input, textarea{
+      width: 90%;
+      padding: 10px;
+      margin: 1em;
+      font: 1em sans-serif;
+      border: 1px solid #999;
+      border-radius:10px ;
+  }
+label{
+    font-weight: bold;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+.botao{
+    background-color:#8C796D;
+    border:  1px solid #260F0D;
+    color: #FFF;
+    font-weight: bold;
+    padding: 15px;
+    border-radius:7px ;
+}
+.botao:hover{
+ background-color: rgba(236, 214, 196,0.53);
+ color: #260F0D;
+}
+@media screen and (max-widht: 768px){
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-widht: 600px){
+.botao{
+    width: 100%;
+}
+}
+
