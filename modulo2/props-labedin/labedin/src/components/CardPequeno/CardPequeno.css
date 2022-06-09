@@ -1,0 +1,26 @@
+.pequenocard-container {
+  display: flex;
+  align-items: center;
+  justify-items:center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.pequenocard-container > img {
+  width: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.pequenocard-container h4 {
+  margin-bottom: 15px;
+}
+
+.pequenocard-container> div {
+  display: flex;
+  flex-direction:row;
+  justify-items: center;
+  align-items: center;
+}
