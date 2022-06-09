@@ -26,7 +26,7 @@ function App() {
       <div className="pequenocard-section-container">
         <CardPequeno
           imagem={email}
-          nomeemail=<b>Email: </b>
+          nomeemail=" Email: "
           email=" sampaioaranha@hotmail.com"
         />
       </div>
@@ -35,7 +35,7 @@ function App() {
         <div className="">
           <Endereço
             imagem={endereco}
-            nomeendereço=<b>Endereço: </b>
+            nomeendereço="Endereço: "
             endereço="Rua Felipe Cardoso, 1671- Santa cruz- RJ"
           />
         </div>
@@ -59,12 +59,12 @@ function App() {
         <h2>Minhas redes sociais</h2>
         <ImagemButton
           imagem="https://d2v9ipibika81v.cloudfront.net/uploads/sites/261/2017/01/facebook-logo-3.png"
-          texto=<a href="https://www.facebook.com/Jess.Aranha">Facebook</a>
+          texto1="Facebook "
         />
 
         <ImagemButton
           imagem="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png"
-          texto=<a href="https://twitter.com/login?lang=pt">Twitter</a>
+          texto="Twitter"
         />
       </div>
     </div>
