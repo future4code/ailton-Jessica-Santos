@@ -76,7 +76,9 @@ apelidos: [`gordinha`, `neguinha`, `amor`]
 }
 console.log(`Eu sou a ${pessoa2.nome}, mas pode me chamar de: ${pessoa2.apelidos}. `);
 }
+
 transforma (pessoa)
+
 
 //2-a-
 
@@ -92,11 +94,14 @@ nome: "Mario",
 idade: 45,
 profissão: "Piloto"
 }
+
+
 function pessoas(pessoa) {
 	const array = pessoa;
 	console.log(`["${array.nome}", ${array.nome.length}, ${array.idade}, "${array.profissão}", ${array.profissão.length}]`)
 	}
 pessoas (pessoa1)
+
 pessoas (pessoa2)*/
 
 //3-a-
@@ -122,4 +127,6 @@ addsacolao(fruta1)
 addsacolao(fruta2)
 addsacolao(fruta3)
 console.log(carrinho)
+
+
 
