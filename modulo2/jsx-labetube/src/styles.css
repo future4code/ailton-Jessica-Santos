@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: orange;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
