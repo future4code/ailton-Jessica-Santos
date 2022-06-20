@@ -1,0 +1,26 @@
+.endereço-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.endereço-container > img {
+  width: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.endereço-container h4 {
+  margin-bottom: 20px;
+}
+
+.endereço-container > div {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
