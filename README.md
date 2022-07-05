@@ -17,14 +17,14 @@ Esse repositório vai acompanhar vocês até o final do curso, para mantermos a 
 │   └── nome-do-projeto
 |
 ├── modulo3
+│   ├── UseState
+│   ├── UseEffect
 │   ├── nome-da-aula
 │   ├── nome-da-aula
 │   ├── nome-da-aula
 │   ├── nome-da-aula
 │   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   └── nome-do-projeto
+│   └──Astromatch
 |
 .
 ```
