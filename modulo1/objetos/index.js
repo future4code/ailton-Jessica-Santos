@@ -76,7 +76,9 @@ apelidos: [`gordinha`, `neguinha`, `amor`]
 }
 console.log(`Eu sou a ${pessoa2.nome}, mas pode me chamar de: ${pessoa2.apelidos}. `);
 }
-transforma (pessoa)*/
+
+transforma (pessoa)
+
 
 //2-a-
 
@@ -93,28 +95,38 @@ idade: 45,
 profissão: "Piloto"
 }
 
-/*function pessoas(pessoa) {
-	let array= []
-	array.push(pessoa.nome)
-	array.push(pessoa.nome.length)
-	array.push(pessoa.idade)
-	array.push(pessoa.profissão)
-	array.push(pessoa.profissão.length)
-	return array
-}*/
-//pessoas(pessoa)
-//console.log(pessoa1, pessoa2)
 
 function pessoas(pessoa) {
 	const array = pessoa;
 	console.log(`["${array.nome}", ${array.nome.length}, ${array.idade}, "${array.profissão}", ${array.profissão.length}]`)
 	}
 pessoas (pessoa1)
-pessoas (pessoa2)
+
+pessoas (pessoa2)*/
 
 //3-a-
-//const carrinho [0]{
- 
+var carrinho = [];
+const fruta1 ={
+nome:"banana",
+disponibilidade:true
+}
+const fruta2={
+	nome: "pera",
+disponibilidade: false
+}
+const fruta3={ 
+	nome: "manga",
+disponibilidade: true
+}
+
+function addsacolao (obj){
+carrinho.push(obj);
+}
+
+addsacolao(fruta1)
+addsacolao(fruta2)
+addsacolao(fruta3)
+console.log(carrinho)
 
 
 
