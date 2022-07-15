@@ -210,7 +210,7 @@ onClickMenu2 = () => {
   }
 };
 
-getAllUsers = () => {
+getAllUsers =  () => {
   axios
     .get(
       "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users",
