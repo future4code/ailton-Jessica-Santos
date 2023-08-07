@@ -1,0 +1,12 @@
+GET https://case-3-cubo.herokuapp.com/person/
+
+###
+
+POST https://case-3-cubo.herokuapp.com/person/
+Content-Type: application/json
+
+{
+    "name": "Jessica",
+    "surname": "Santos",
+    "participation": 3
+}
